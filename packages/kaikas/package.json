@@ -1,0 +1,35 @@
+{
+  "name": "@hashlike-official/extend-web3-react-kaikas",
+  "description": "kaikas wallet connector for web3-react",
+  "keywords": [
+    "web3-react",
+    "kaikas"
+  ],
+  "author": "Kim HyunJin <hyunjin1612@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "repository": "github:hashlike-official/extend-web3-react",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.14",
+  "files": [
+    "dist/*"
+  ],
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "@web3-react/store": "^8.0.25-beta.0",
+    "@web3-react/types": "^8.0.20-beta.0",
+    "caver-js": "^1.8.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "gitHead": "fcbb83ca413beadb485f49bc7653949cdfe85c58"
+}
